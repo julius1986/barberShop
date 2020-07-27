@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Barber shop</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__body">
+          <nav class="header__menu">
+            <ul>
+              <li><a data-menu-id="#main">Главная</a></li>
+              <li><a data-menu-id="#clients">Наши клиенты</a></li>
+              <li><a data-menu-id="#haircuts">Прически</a></li>
+              <li><a data-menu-id="#address">Адресс</a></li>
+            </ul>
+          </nav>
+          <div class="header__burger-button">
+            <span class="lines"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="swiper-container" id="main">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <section class="info swiper-slide">
+            <div class="container">
+              <div class="content">
+                <div class="content__image content__image--slide1"></div>
+                <div class="content__row">
+                  <div class="content__col">
+                    <div class="content__title text-black">
+                      <h1>
+                        Нам доверяют <br />
+                        Лучшие мастера
+                      </h1>
+                    </div>
+                    <div class="content__text">
+                      Мастер с более чем 15 летним стажем, умеет делать разные
+                      виды стрижек. Если вам нужна стрижка для свадьбы,
+                      выпускного или другого знаминательного события, то лучше
+                      места вам не нейти.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="info swiper-slide">
+            <div class="container">
+              <div class="content">
+                <div class="content__image content__image--slide2"></div>
+                <div class="content__row">
+                  <div class="content__col">
+                    <div class="content__title text-black">
+                      <h1>
+                        Элитные прически <br />
+                        Уникальный стиль
+                      </h1>
+                    </div>
+                    <div class="content__text">
+                      За долгое время работы, мы научились делать самые разные
+                      экзотические стрижки, укладки. Если вы ищете что то
+                      неповторимое и уникальное, то вы просто обязаны прийти к
+                      нам.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="info swiper-slide">
+            <div class="container">
+              <div class="content">
+                <div class="content__image content__image--slide3"></div>
+                <div class="content__row">
+                  <div class="content__col">
+                    <div class="content__title text-black">
+                      <h1>
+                        Неповторимая атмосфера <br />
+                        Хорошее оборудование
+                      </h1>
+                    </div>
+                    <div class="content__text">
+                      Если вы хотите что бы стрижка приносила вам радость и
+                      эстетическое удовольствие, то у нас вы это получите. Так
+                      же мы используем оборудование, краски лаки и тд. только
+                      модных брендов.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <section class="section section1 bg-grey hide-el">
+        <div class="container">
+          <div class="section1-body">
+            <div class="section1-body__row">
+              <div class="section1-body__image">
+                <img src="img/about-img.jpg" alt="About image" />
+              </div>
+              <div class="section1-body__content">
+                <div class="section1-body__title text-black mb-15">
+                  <h2>
+                    Важен каждый клиент
+                  </h2>
+                </div>
+                <div class="section1-body__text text-black big-font mb-15">
+                  Мы уважаем и ценим каждого нашего клиента. Приходя к нам Вы
+                  получаете самые приятные впечатления, быстрий и качественный
+                  сервис.
+                </div>
+                <div class="section1-body__description mb-15">
+                  Так же мы всегда прислушиваемся и учитываем пожелание каждого
+                  нашего клиента.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section clients text-align-center" id="clients">
+        <div class="container">
+          <div class="clients-body">
+            <div class="clients-body__row">
+              <div class="clients-body__content">
+                <div class="clients-body__title text-black mb-15">
+                  <h2>
+                    Наши клиенты.
+                  </h2>
+                </div>
+                <div
+                  class="clients-body__description big-font text-black mb-25"
+                >
+                  Тут мы размещаем наших клиентов. Каждый из Вас может попасть в
+                  галерею наших клиентов.
+                </div>
+
+                <div class="clients-swiper-container">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="clients-body__image">
+                        <img src="img/clients/5.jpg" alt="About image" />
+                      </div>
+                      <div class="clients-body__text text-black big-font mb-15">
+                        <h3>Инна</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="clients-body__image">
+                        <img src="img/clients/2.jpg" alt="About image" />
+                      </div>
+                      <div class="clients-body__text text-black big-font mb-15">
+                        <h3>Елена</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="clients-body__image">
+                        <img src="img/clients/6.jpg" alt="About image" />
+                      </div>
+                      <div class="clients-body__text text-black big-font mb-15">
+                        <h3>Тома</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="clients-body__image">
+                        <img src="img/clients/5.jpg" alt="About image" />
+                      </div>
+                      <div class="clients-body__text text-black big-font mb-15">
+                        <h3>Инна</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="clients-body__image">
+                        <img src="img/clients/2.jpg" alt="About image" />
+                      </div>
+                      <div class="clients-body__text text-black big-font mb-15">
+                        <h3>Елена</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="clients-body__image">
+                        <img src="img/clients/6.jpg" alt="About image" />
+                      </div>
+                      <div class="clients-body__text text-black big-font mb-15">
+                        <h3>Тома</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section3 bg-grey hide-el">
+        <div class="container">
+          <div class="section3-body">
+            <div class="section3-body__row">
+              <div class="section3-body__content">
+                <div class="section3-body__title text-black">
+                  <h2>
+                    Красота<br />
+                    Популярность
+                  </h2>
+                </div>
+                <div class="section3-body__text text-black big-font mb-15">
+                  Мы всегда стараемся сделать нашу работу как можно лучше. Для
+                  этих целей мы стараемся использовать только самые лучшие
+                  материалы. Так же мы можем сделать для Вас всевозможные
+                  элитные прически и завивки.
+                </div>
+                <div class="section3-body__description mb-15">
+                  Мы поможем Вам приготовиться к любому незабываемому вами
+                  важному событию, будь то свадьба, выпускной или другой очень
+                  значимый для вас повод.
+                </div>
+              </div>
+              <div class="section3-body__images">
+                <div class="section3-body__image1">
+                  <img
+                    src="img/section3-img1.jpg"
+                    alt="image1"
+                    class="section3-body__image1"
+                  />
+                </div>
+                <div class="section3-body__image2">
+                  <img
+                    src="img/section3-img2.jpg"
+                    alt="image2"
+                    class="section3-body__image2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section examples text-align-center" id="haircuts">
+        <div class="container">
+          <div class="examples-body">
+            <div class="examples-body__row">
+              <div class="examples-body__content">
+                <div class="examples-body__title text-black mb-15">
+                  <h2>
+                    Галерея наших услуг.
+                  </h2>
+                </div>
+                <div
+                  class="examples-body__description text-black big-font mb-25"
+                >
+                  В данной галереи вы можете выбрать те стрижки которые вам
+                  нравятся и мы приложим все усилия что бы Вы остались довольны
+                  результатом и обязательно к нам еще вернулись.
+                </div>
+
+                <div class="examples-swiper-container">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="examples-body__image">
+                        <img src="img/about-img.jpg" alt="About image" />
+                      </div>
+                      <div
+                        class="examples-body__text text-black big-font mb-15"
+                      >
+                        <h3>Бокс</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="examples-body__image">
+                        <img src="img/about-img.jpg" alt="About image" />
+                      </div>
+                      <div
+                        class="examples-body__text text-black big-font mb-15"
+                      >
+                        <h3>Полубокс</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="examples-body__image">
+                        <img src="img/clients/1.jpeg" alt="About image" />
+                      </div>
+                      <div
+                        class="examples-body__text text-black big-font mb-15"
+                      >
+                        <h3>Налысо</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="examples-body__image">
+                        <img src="img/clients/2.jpg" alt="About image" />
+                      </div>
+                      <div
+                        class="examples-body__text text-black big-font mb-15"
+                      >
+                        <h3>Горшок</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="examples-body__image">
+                        <img src="img/clients/3.jpg" alt="About image" />
+                      </div>
+                      <div
+                        class="examples-body__text text-black big-font mb-15"
+                      >
+                        <h3>Длинные волосы</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="examples-body__image">
+                        <img src="img/clients/4.jpeg" alt="About image" />
+                      </div>
+                      <div
+                        class="examples-body__text text-black big-font mb-15"
+                      >
+                        <h3>Фараон</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="examples-body__image">
+                        <img src="img/clients/5.jpg" alt="About image" />
+                      </div>
+                      <div
+                        class="examples-body__text text-black big-font mb-15"
+                      >
+                        <h3>Шахматист</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="examples-body__image">
+                        <img src="img/clients/6.jpg" alt="About image" />
+                      </div>
+                      <div
+                        class="examples-body__text text-black big-font mb-15"
+                      >
+                        <h3>Олигарх</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="examples-body__image">
+                        <img src="img/clients/7.png" alt="About image" />
+                      </div>
+                      <div
+                        class="examples-body__text text-black big-font mb-15"
+                      >
+                        <h3>Учитель</h3>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="examples-body__image">
+                        <img src="img/clients/8.jpeg" alt="About image" />
+                      </div>
+                      <div
+                        class="examples-body__text text-black big-font mb-15"
+                      >
+                        <h3>Каре</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-grey" id="address">
+      <div class="container">
+        <div class="footer__body">
+          <div class="footer__header text-black"><h2>Контакты</h2></div>
+          <div class="footer__content">
+            <div class="footer__title text-black"><h3>Адресс</h3></div>
+            <div class="footer__text">Одесса, ул. Ицхака Рабина 22</div>
+          </div>
+          <div class="footer__content">
+            <div class="footer__title text-black"><h3>Телефон</h3></div>
+            <div class="footer__text">753159456</div>
+          </div>
+          <div class="footer__content">
+            <div class="footer__title text-black"><h3>Почта</h3></div>
+            <div class="footer__text">marina@gmail.com</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="myjs.js"></script>
+  </body>
+</html>

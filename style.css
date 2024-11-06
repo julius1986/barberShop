@@ -190,7 +190,8 @@ img {
 
 /*swiper*/
 .swiper-container {
-    margin-top: 50px;
+    padding-top: 50px;
+    overflow: hidden;
 }
 
 .swiper-slide {

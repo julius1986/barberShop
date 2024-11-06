@@ -74,7 +74,7 @@ if (window.screen.availWidth < 768) {
 }
 
 /*Menu */
-let listLink = document.querySelectorAll(".header__menu li a");
+let listLink = document.querySelectorAll(".header__menu li");
 
 listLink.forEach((el) => {
   el.addEventListener("click", function () {
@@ -82,11 +82,7 @@ listLink.forEach((el) => {
       .querySelector(this.getAttribute("data-menu-id"))
       .getBoundingClientRect();
 
-    if (section.y == 0) {
-      move = 0;
-    } else {
-      move = window.pageYOffset + section.y;
-    }
+    move = window.pageYOffset + section.y;
 
     window.scrollTo({
       top: move,
@@ -101,6 +97,7 @@ let hiddenEl = document.querySelectorAll(".hide-el");
 let showHideEls = function (elArr) {
   let windowHeight = window.innerHeight;
   let windowYOffset = window.pageYOffset;
+
   hiddenEl.forEach((el) => {
     let elBorderTop = (el.getBoundingClientRect().top + windowYOffset) * 1.1; // 1.1 можно убрать
     let elBorderBottom =
